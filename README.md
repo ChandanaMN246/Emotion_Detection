@@ -8,7 +8,7 @@ Facial Landmark Detection: Once a face is detected, the project employs a facial
 Emotion Classification: Using pre-trained machine learning models, the project analyzes the facial expressions captured by the facial landmarks to determine the corresponding emotion. Common models for emotion classification include Convolutional Neural Networks (CNN) and Support Vector Machines.
 Visual Feedback: The detected emotions are visually displayed on the video feed in real-time, providing a live representation of the detected emotions.
 
-<b>haarcascade_frontalface_default.xml</b>
+<b><h2>haarcascade_frontalface_default.xml</h2></b><br>
 The "haarcascade_frontalface_default.xml" file contains the trained data of a Haar Cascade classifier specifically designed to detect frontal faces. The Haar Cascade algorithm is a machine learning-based approach that utilizes Haar-like features to identify objects in images or video frames.
 
 This particular XML file, trained using the Haar Cascade framework, serves as a reference model for detecting frontal faces in various computer vision applications. It has been trained on a diverse dataset of positive and negative images to learn patterns and features specific to frontal faces. The classifier utilizes these learned features to detect and localize faces accurately.
@@ -17,7 +17,7 @@ When used in conjunction with computer vision libraries like OpenCV, the "haarca
 
 By utilizing the Haar Cascade classifier model provided in the "haarcascade_frontalface_default.xml" file, developers can save significant time and effort in training their own face detection models from scratch. They can leverage this pre-trained model to quickly detect and extract frontal faces, opening up a wide range of possibilities for building interactive and intelligent computer vision applications.
 
-<b>model.h5</b>
+<b><h2>model.h5</h2></b><br>
 The "model.h5" file serves as a storage container for a trained deep learning model specifically built for emotion detection. This model has been trained using a large dataset of labeled examples, allowing it to learn patterns and features associated with different emotions.
 
 Technologies Used: Python, OpenCV, Deep Learning (CNN), Machine Learning, Facial Landmark Detection Algorithms.

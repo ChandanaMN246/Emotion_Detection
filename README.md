@@ -3,6 +3,7 @@
 This Python project utilizes computer vision techniques to detect and analyze emotions from live video feed captured by a camera. By leveraging facial recognition algorithms and machine learning models, the project can identify and classify emotions such as 'Angry','Disgust','Fear','Happy','Neutral', 'Sad' and 'Surprise'.
 
 Key Features:
+
 Real-time Emotion Detection: The project employs OpenCV, a popular computer vision library, to capture video frames from the camera and detect faces within the frames.
 
 Facial Landmark Detection: Once a face is detected, the project employs a facial landmark detection algorithm to identify key facial features, such as eyes, nose, and mouth.
